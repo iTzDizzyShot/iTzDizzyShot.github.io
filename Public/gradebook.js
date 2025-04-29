@@ -10,7 +10,7 @@ function fetchGradeData() {
     xhr.onreadystatechange = function(){
         let results;
         // Check if we're done
-        if(xhr.readyState === xhr.Done){
+        if(xhr.readyState === xhr.DONE){
             // Check if we're successful
             if(xhr.status !== 200){
                 console.error(`Could not get grades. 
@@ -37,6 +37,7 @@ function populateGradebook(data) {
                 // Concatenate the full name: "last_name, first_name"
                 document.createTextNode(assignment.last_name + ", " + assignment.first_name)
             );
+            columns.grade = document.createElement('td');
             columns.grade.appendChild(
                 // Just put the name in text, you could be fancy and figure out the letter grade here
                 // with either a bunch of conditions, or a JavaScript "switch" statement
@@ -53,5 +54,5 @@ function populateGradebook(data) {
 // TODO REMOVE THIS
 // Call the stubs to demonstarte the workflow
 const gradeData = fetchGradeData();
-populateGradebook(gradeData);
+// populateGradebook(gradeData);
 // END REMOVE
