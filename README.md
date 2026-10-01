@@ -3,10 +3,10 @@
 My name is Sean Patterson. I'm an aspiring IT cybersecurity professional with interests in SOC operations, network security, and ethical hacking.
 
 ## Currently Learning
-- Security Operations Center (SOC) workflows
-- Incident response and threat hunting
-- Python scripting for cybersecurity
-- SIEM tools and log analysis
+- Security Administration (Cisco Network Academy)
+- Project Management (Coursera) 
+- Network Vulnerabilities (Intro to Ethical Hacking)
+- Windows Administration (Active Directory in Windows Server 2022)
  
 ## Technical Skills
 - Python
@@ -19,14 +19,11 @@ My name is Sean Patterson. I'm an aspiring IT cybersecurity professional with in
 
 ## Goals for 2026
 - Earn Security+
-- Contrubute to open-source projects
-- Bulid a security-focused progects
-- Land a cybersecurity internship
+- Bulid more security-focused projects
+- Land a cybersecurity internship/job
 
 ## Certifications
 - CompTIA Security+ (In Progress)
-- Google Cybersecurity Certificate (In Progress)
-- CompTIA A+ (In Progress)
 
 ## Connect with me
 - LinkedIn: https://www.linkedin.com/in/sean-patterson-5b70a5374/
